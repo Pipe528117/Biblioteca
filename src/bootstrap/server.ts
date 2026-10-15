@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config(); // <- Carga las variables del .env PRIMERO que todo
+
 import app from '../web/app';
 import { ENV } from '../shared/config/env';
 import { pool } from '../shared/config/database';
